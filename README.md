@@ -32,6 +32,14 @@ add_time("10:10 PM", "3:30")
 add_time("11:43 PM", "24:20", "tueSday")
 # Returns: 12:03 AM, Thursday (2 days later)
 
+Do not import any Python libraries. Assume that the start times are valid times. The minutes in the duration time will be a whole number less than 60, but the hour can be any whole number.
+
+## Development
+
+Write your code in `time_calculator.py`. For development, you can use `main.py` to test your `time_calculator()` function. Click the "run" button and `main.py` will run.
+
+## Testing 
+
 add_time("6:30 PM", "205:12")
 # Returns: 7:42 AM (9 days later)
 ```
